@@ -2,7 +2,7 @@ CC=gcc
 CFLAGS=-Wall -Wextra -O2 -g
 LIBS=-lreadline -lncurses
 
-SRC=mainl.c parse.c
+SRC=main.c parse.c
 OBJ=$(SRC:.c=.o)
 
 yash: $(OBJ)
